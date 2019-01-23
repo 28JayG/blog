@@ -1,10 +1,12 @@
 <html>
     <head>
-        <title>
-            blog
-        </title>
+        <title>hack things blog</title>
     </head>
     <body>
-        <h1>blog</h1>
+        <div>
+           {%for post in posts%}
+            {{post}}
+           {%endfor%}
+        </div>
     </body>
 </html>
